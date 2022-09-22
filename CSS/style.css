@@ -342,7 +342,7 @@ button {
 .main_button_service {
   width: 18%;
   padding: 5px 5px 5px 5px;
-  justify-content: center;
+  justify-self: center;
 }
 .main_button-our-work {
   padding: 5px;
