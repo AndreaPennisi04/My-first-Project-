@@ -20,6 +20,7 @@
 /* Fin Nav bar */
 
 .content {
+  padding: 20px;
 }
 
 /* Footer */
@@ -61,6 +62,9 @@ footer img {
 
   footer .mapa {
     width: 90vw;
+  }
+  .content {
+    padding: 3px;
   }
 }
 
