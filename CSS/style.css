@@ -4,10 +4,21 @@
   font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
     sans-serif;
 }
-/* Header */
+
+/* Nav bar */
 header img {
   border-radius: 15px;
 }
+
+.navbar-custom {
+  background-color: grey;
+}
+
+.navbar-custom li a {
+  color: white;
+}
+/* Fin Nav bar */
+
 .main_header {
   display: flex;
   background-color: grey;
