@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
+    sans-serif;
+}
+/* Header */
+header img {
+  border-radius: 15px;
+}
+.main_header {
+  display: flex;
+  background-color: grey;
+  color: white;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.main_wrapper {
+  display: flex;
+}
+
+.main_header a {
+  color: white;
+  font-size: 25px;
+  display: block;
+  padding: 8px;
+  position: center;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 5px;
+  padding: 10px 0px 10px 3px;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  position: right;
+}
+
+.main_header_nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 0px;
+}
+.main_header_nav li {
+  display: inline-block;
+  width: 10%;
+  position: relative;
+  font-size: 14px;
+  padding: 5%;
+}
+li {
+  float: left;
+}
+
+.main_header_nave_contact {
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 0px;
+}
+
+.main_header_language {
+  padding: 10px 14px;
+  margin-left: 10px;
+}
+
+.main_header_language_selector {
+  background-color: grey;
+  font-size: 15px;
+  color: white;
+  margin: 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+.logo_brand {
+  padding: 5px;
+  margin-right: auto;
+}
+
+/* Home Page */
+
+.home_page_image {
+  background-image: url('../imagenes/bentley.jpg');
+  background-repeat: no-repeat;
+  background: linear-gradient(0, 0, 0, 0.3);
+  background-size: auto;
+  background-position: bottom;
+  width: 100%;
+  height: 100vh;
+}
+
+.home_text {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+  color: rgb(247, 246, 246);
+  font-size: 2rem;
+  width: 100vw;
+  height: 80vh;
+}
+
+.main_about_us {
+  height: 50vh;
+  display: flex;
+}
+/* End of home page */
+
+/* Footer */
+.main_footer {
+  left: 0;
+  bottom: 0;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  font-size: 16px;
+
+  height: 30%;
+  padding: 15px;
+}
+
+footer img {
+  border-radius: 15px;
+}
+
+.footer-logo {
+  width: 100%;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+}
+
+td div {
+  padding: 10px;
+}
+
+td div p {
+  padding: 10px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+a {
+  color: white;
+}
+/* End footer */
+
+/* Contact Page */
+
+.form {
+  width: 90%;
+  max-width: 600px;
+}
+.contact-page {
+  background: rgb(240, 241, 233);
+  background: radial-gradient(
+    circle,
+    rgba(240, 241, 233, 1) 0%,
+    rgba(200, 203, 197, 1) 45%,
+    rgba(242, 243, 242, 1) 81%,
+    rgba(244, 246, 252, 1) 100%
+  );
+  background-size: auto;
+  background-position: center;
+  width: 100%;
+  height: 160vh;
+}
+.main_title {
+  justify-content: center;
+  display: flex;
+}
+
+.Contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+}
+
+.form-section {
+  width: 700px;
+  height: 200px;
+  padding: 0px 5%;
+}
+
+textarea {
+  resize: none;
+}
+
+.input_group {
+  margin-bottom: 30px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 1.5%;
+  outline: 0;
+  border: 1px;
+  color: rgb(80, 72, 72);
+}
+label {
+  color: black;
+  font-size: 16px;
+}
+
+input,
+.checkbox {
+  border-radius: 1%;
+  box-sizing: content-box;
+}
+
+button {
+  padding: 3px;
+  color: black;
+  outline: none;
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+/* End contact page */
+
+/* Service section */
+
+/* .parent {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 2fr 1fr 1fr 1fr 1fr 1fr auto;
+    height: 100vh;
+    width: 100vw;
+  } */
+
+.nav {
+  grid-column: 1 /3;
+  grid-row: 1/2;
+}
+
+nav {
+  width: 100vw;
+}
+
+.header {
+  grid-column: 1 /3;
+  grid-row: 2 /3;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  font-size: 3rem;
+}
+
+.header_text {
+  margin: 10px;
+  padding: 5px;
+  grid-column: 1 /3;
+  grid-row: 3/4;
+}
+
+.main_principal_wrapper-img {
+  background-repeat: no-repeat;
+  background: linear-gradient(0, 0, 0, 0);
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 750px;
+  position: relative;
+}
+
+.transition-img-principal {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  opacity: 0;
+  transition: opacity 2s ease;
+  width: 100%;
+  height: 750px;
+}
+
+.transition-img-principal:hover {
+  opacity: 1;
+}
+.main_principal_wrapper-img {
+  background-repeat: no-repeat;
+  background: linear-gradient(0, 0, 0, 0);
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 750px;
+  position: relative;
+}
+
+.main .transition-img-principal:hover {
+  opacity: 1;
+}
+
+.photo1 {
+  margin: 10px;
+  padding: 5px;
+  grid-column: 2/3;
+  grid-row: 5/5;
+}
+.text1 {
+  margin: 10px;
+  padding: 5px;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.photo2 {
+  margin: 10px;
+  padding: 5px;
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+.text2 {
+  margin: 10px;
+  padding: 5px;
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.photo3 {
+  margin: 10px;
+  padding: 5px;
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+.text3 {
+  margin: 10px;
+  padding: 5px;
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+.photo4 {
+  margin: 10px;
+  padding: 5px;
+  grid-column: 1/2;
+  grid-row: 7/8;
+}
+.text4 {
+  margin: 10px;
+  padding: 5px;
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+
+.main_button_service {
+  width: 18%;
+  padding: 5px 5px 5px 5px;
+  justify-self: center;
+}
+.main_button-our-work {
+  padding: 5px;
+  justify-content: center;
+  border: 2px solid grey;
+  border-radius: 20px;
+  font-size: medium;
+}
+
+.main_button-text {
+  color: black;
+}
+
+/* End of Service section */
+
+/* Galery section */
+
+.main_title {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.6;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.galley_container_grid {
+  display: grid;
+  flex-wrap: nowrap;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 0.25em;
+  grid-column-gap: 10px;
+  grid-row-gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.sub-header {
+  text-align: center;
+}
+/* no me anda para ponderle titulo a las fotos */
+/* title::after {
+    content: 'Honda Fit interior tiza';
+    color: red;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity o.5s ease;
+  }
+  
+  title:hover::after {
+    opacity: o.5s;
+  } */
+
+/* 404 Error */
+.background-image-in-error-page {
+  background-image: url(../imagenes/tapiceria-coche-asientos\(about-us\).jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+}
+.error-page {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  color: white;
+}
+
+.error-message {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  color: white;
+}
+
+.button-home {
+  color: rgb(113, 109, 109);
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  background: rgb(239, 236, 236);
+  border-radius: 20px;
+  display: inline-flex;
+  justify-content: center;
+}
+.gear_gif {
+  padding: 1%;
+  margin: 2%;
+  content: center;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  justify-content: flex-start;
+}
+@keyframes float {
+  0% {
+    transform: translate(-50px, -50px);
+  }
+  25% {
+    transform: translate(50px, -50px);
+  }
+  50% {
+    transform: translate(-50px, 50px);
+  }
+  75% {
+    transform: translate(-50px, -50px);
+  }
+  100% {
+    transform: translate(-50px, 50px);
+  }
+}
+
+/* Mobile view */
+@media (min-width: 768px) {
+  header img {
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 990px) {
+  header img {
+    border-radius: 15px;
+  }
+}
