@@ -1,0 +1,13 @@
+.galeria img {
+  width: 250px;
+  height: 200px;
+}
+
+.galeria {
+  padding: 10px;
+}
+
+.header-galeria {
+  text-align: center;
+  margin: 30px;
+}
