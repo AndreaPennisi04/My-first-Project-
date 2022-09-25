@@ -1,186 +1,217 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="favico icon" href="./imagenes/FaviconLogoJPCueros3.jpg" />
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/contactanos.css" />
     <title>JP Cueros</title>
-    
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-    <!-- this is the header -->
-    <header id="headermain" class="main_header">
-      <img
-        src="./imagenes/resize_122687708_168534678234197_1058013072474963530_n 2 2.jpeg"
-        alt="JP Cueros"
-      />
-      <nav>
-        <ul class="main_header_nave">
-          <li>
-            <a href="./index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="./sobreNosotros.html#sobreNosotros">Sobre Nosotros</a>
-          </li>
-          <li>
-            <a href="./servicios.html#servicios">Servicios</a>
-          </li>
-          <li>
-            <a href="./galeria.html#galeria">Galeria</a>
-          </li>
-          <li>
-            <a
-              class="main_header_nave_contact"
-              href="./contactanos.html#Formulario"
-            >
-              Contactanos
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- This is contact section -->
-    <main>
-       <Sect>
-        
-       <div class="contact-page">
-       <div class="main_title">
-          <h2>Contactanos</h2>
-        </div>
-        <div class="Contact-section">
-          <div class="form-section" >
-          <form
-            action="Contacto"
-            id="formulario"
-            enctype="text/plain"
-            method="get"
-            method="post"
-          >
-          
-          <div calss="Contact-item">
-          <label for="name"> <img class="icon" src="./imagenes/account.png" />Nombre y Apellido </label>
-            <input 
-              type="text"
-              name="name"
-              placeholder="Nombre completo"
-              cols="20"
-              row="10"
-            />
-            </div>
-            <div calss="Contact-item">
-            <label for="email"><img class="icon" src="./imagenes/envelope-regular.svg" /> Correo electronico</label>
-            <input type="email" name="email" />
-            </div>
-            <div calss="Contact-item">
-            <label for="Metodo de contacto">Metodo de contacto</label>
-            <input class="checkbox" 
-              type="checkbox"
-              name="acepta"
-              value="true"
-              name="Metodo de contacto"
-              cols="20"
-              row="1"
-            />
-          </div>
-          <div calss="Contact-item">
-            <label for="Telefono"> <img class="icon" src="./imagenes/phone-solid.svg" />telefono</label>
-            <input type="Telefono" name="Telefono" cols="20" row="1" />
-          </div>
-          <div calss="Contact-item">
-            <label for="acepta">Metodo de contacto</label>
-            <input class="checkbox" type="checkbox" name="acepta" value="true"/>
-          </div>
-            <div calss="Contact-item">
-            <label for="Mensaje"><img class="icon" src="./imagenes/message-outline.png" />Mensaje </label>
-            <textarea name="Mensaje" cols="30" row="400"></textarea>
-          </div>
-            <div calss="Contact-item">
-            <input type="file" value="choose file" />
-          </div>
-            <div calss="Contact-item">
-            <button type="submit">Enviar</button>
-          </div>
-            <div calss="Contact-item">
-           <button type="cancelar">Cancelar </button>
-            </div>
-            </div>
-          </div>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <img
+          src="./imagenes/resize_122687708_168534678234197_1058013072474963530_n 2 2.jpeg"
+          alt="JP Cueros"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobreNosotros.html#sobreNosotros">
+                Sobre Nosotros
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html#servicios">
+                Servicios
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html#galeria">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-dark" href="./contactanos.html#Formulario">
+                Contactanos
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-  </form>
-  </Sect>
-   </main>
+    </nav>
 
-    <!-- Footer -->
-    <footer id="footer" class="main_footer">
-      <section id="footer">
-        <div>
-          <div>
-            <img
-              src="./imagenes/resize_122687708_168534678234197_1058013072474963530_n 2 2.jpeg"
-              alt="JP Cueros"
-            />
-          </div>
-          <!-- inicio de tabla -->
-          <table>
-            <tr>
-              <td>
-                <div>
-                  <p>
-                    <img class="icon" src="./imagenes/location-dot-solid.svg" />
-                    Encontranos en: Galicia 275, C1414EBC CABA, Warnes,
-                    Argentina
-                  </p>
-                  <img src="./imagenes/batch_companyLocation.jpg" alt="Map" />
-                </div>
-              </td>
-              <td>
-                <div class="footer-info">
-                  <h1>Informacion general</h1>
-                  <p>
-                    <img class="icon" src="./imagenes/phone-solid.svg" />
-                    Numero de contacto: +54 (911) 5428-3119
-                  </p>
-                  <p>Dias y Horarios: Lu-Vi de 8:30AM a 6:00PM</p>
-                  <p>
-                    <img class="icon" src="./imagenes/envelope-regular.svg" />
-                    Email:
-                    <a href="mailto:jorgepennisi@yahoo.com.ar">
-                      jorgepennisi@yahoo.com.ar
-                    </a>
-                  </p>
-                  <p>
-                    Si quieres enviarnos una consulta haz clcik en el siguiente
-                    link
-                    <a href="./contactanos.html#Formulario">
-                      Ir a pagina de contacto
-                    </a>
-                  </p>
-                  <h2>Seguinos en</h2>
-                  <p>
-                    <img class="icon" src="./imagenes/instagram.svg" />
-                    <a href="https://www.instagram.com/jptapizados/?hl=es">
-                      Instagram
-                    </a>
-                  </p>
-                  <p>
-                    <img class="icon" src="./imagenes/facebook-f.svg" />
-                    <a href="https://www.facebook.com/JpCueros">
-                      Facebook
-                    </a>
-                  </p>
-                </div>
-              </td>
-            </tr>
-          </table>
-          <!-- fin de tabla -->
+    <div class="content">
+      <div class="contact-page">
+        <div class="container-sm">
+          <h1>Contactanos</h1>
+
+          <form action="Contacto" id="formulario">
+            <div class="mb-3">
+              <label class="form-label" for="name">
+                <img class="icon" src="./imagenes/account.png" />
+                Nombre y Apellido
+              </label>
+              <input
+                class="form-control"
+                type="text"
+                name="name"
+                placeholder="Nombre completo"
+                cols="20"
+                row="10"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="email">
+                <img class="icon" src="./imagenes/envelope-regular.svg" />
+                Correo electronico
+              </label>
+              <input class="form-control" type="email" name="email" />
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="acepta"
+                  value="true"
+                />
+                <label class="form-check-label" for="acepta">
+                  Metodo de contacto
+                </label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="Telefono">
+                <img class="icon" src="./imagenes/phone-solid.svg" />
+                Telefono
+              </label>
+              <input
+                type="Telefono"
+                class="form-control"
+                name="Telefono"
+                cols="20"
+                row="1"
+              />
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="acepta"
+                  value="true"
+                />
+                <label class="form-check-label" for="acepta">
+                  Metodo de contacto
+                </label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="Mensaje">
+                <img class="icon" src="./imagenes/message-outline.png" />
+                Mensaje
+              </label>
+              <textarea
+                class="form-control"
+                name="Mensaje"
+                cols="30"
+                row="400"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-dark" type="submit">Enviar</button>
+
+              <button class="btn btn-secondary" type="cancelar">
+                Cancelar
+              </button>
+            </div>
+          </form>
         </div>
-      </section>
+      </div>
+    </div>
+
+    <!-- Inicio footer -->
+    <footer>
+      <div class="footer-logo">
+        <img
+          src="./imagenes/resize_122687708_168534678234197_1058013072474963530_n 2 2.jpeg"
+          alt="JP Cueros"
+        />
+      </div>
+      <div>
+        <h2>Encontranos</h2>
+        <p>
+          <img class="icon" src="./imagenes/location-dot-solid.svg" />
+          Galicia 275, C1414EBC CABA, Warnes, Argentina
+        </p>
+        <img
+          class="mapa"
+          src="./imagenes/batch_companyLocation.jpg"
+          alt="Map"
+        />
+      </div>
+
+      <div class="footer-info">
+        <h2>Informacion general</h2>
+        <p>
+          <img class="icon" src="./imagenes/phone-solid.svg" />
+          Numero de contacto: +54 (911) 5428-3119
+        </p>
+        <p>Dias y Horarios: Lu-Vi de 8:30AM a 6:00PM</p>
+        <p>
+          <img class="icon" src="./imagenes/envelope-regular.svg" />
+          Email:
+          <a href="mailto:jorgepennisi@yahoo.com.ar">
+            jorgepennisi@yahoo.com.ar
+          </a>
+        </p>
+        <p>
+          Envianos tu consulta haciendo click aqui
+          <a href="./contactanos.html#Formulario">
+            Ir a pagina de contacto
+          </a>
+        </p>
+        <p>
+          <img class="icon" src="./imagenes/instagram.svg" />
+          <a href="https://www.instagram.com/jptapizados/?hl=es">
+            Instagram
+          </a>
+        </p>
+        <p>
+          <img class="icon" src="./imagenes/facebook-f.svg" />
+          <a href="https://www.facebook.com/JpCueros">
+            Facebook
+          </a>
+        </p>
+      </div>
     </footer>
   </body>
-  <!-- Fin contatc -->
 </html>
