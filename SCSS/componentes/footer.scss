@@ -1,0 +1,38 @@
+  /* Footer */
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: grey;
+    color: white;
+    padding: 30px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a:hover {
+    color: rgb(47, 43, 43) !important;
+    outline-style: hidden !important;
+    outline: none !important;
+  }
+  .footer-logo {
+    width: 100vw;
+    text-align: center;
+  }
+  footer div {
+    margin: 15px;
+  }
+  
+  footer img {
+    border-radius: 15px;
+  }
+  
+  /* End footer */
