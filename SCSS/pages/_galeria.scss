@@ -17,14 +17,25 @@
 .galeria img {
     width: 275px;
     height: 200px;
+    margin: 5px;
   }
   
   .galeria {
     padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+
+}
+@media only screen and (max-width: 600px) {
+  .galeria {
+    flex-direction: column;
   }
+}
   
   .header-galeria {
     text-align: center;
     margin: 30px;
   }
-  

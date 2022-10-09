@@ -6,14 +6,16 @@ $font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
 
 // Then add additional custom code here
 
-@import './pages/404';
-@import './pages/contacto';
-@import './pages/galeria';
-@import './pages/index';
-@import './pages/servicios';
-@import './pages/sobrenosotros';
+@import './pages/_404.scss';
+@import './pages/_contacto.scss';
+@import './pages/_galeria.scss';
+@import './pages/_index.scss';
+@import './pages/_servicios.scss';
+@import './pages/_sobrenosotros.scss';
 @import './componentes/footer.scss';
 @import './componentes/navbar.scss';
+@import './complements/_loop.scss';
+@import './complements/_variables.scss';
 
 $grid-breakpoints: (
   xs: 0,
@@ -27,7 +29,68 @@ $grid-breakpoints: (
 * {
   margin: 0;
   padding: 0;
+  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
+    sans-serif;
 }
+
+/* Nav bar */
+.navbar img {
+  border-radius: 15px;
+}
+
+.navbar-custom {
+  background-color: grey;
+}
+
+.navbar-custom li a {
+  color: white;
+}
+/* Fin Nav bar */
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: grey;
+  color: white;
+  padding: 30px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+footer a {
+  color: white;
+}
+
+.footer-logo {
+  width: 100vw;
+  text-align: center;
+}
+footer div {
+  margin: 15px;
+}
+
+footer img {
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    padding: 0;
+  }
+
+  footer .mapa {
+    width: 90vw;
+  }
+}
+
+/* End footer */
+
 
 //   Mobile view
 
