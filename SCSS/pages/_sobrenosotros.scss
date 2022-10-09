@@ -25,5 +25,17 @@
     margin: 5px;
   }
 
+  .sobre-nosotros p {
+    margin: 20px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .sobre-nosotros-header {
+      height: 100px;
+      color: black;
+    }
+ 
+  }
+
 //   End sobre nosotros
 

@@ -8382,8 +8382,8 @@ textarea.form-control-lg {
     display: none !important; } }
 
 .background-image-in-error-page {
-  background-image: url("../imagenes/tapiceria-coche-asientos(about-us).jpg");
-  background-size: 100%;
+  background-image: url("../../imagenes/tapiceria-coche-asientos.jpeg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: grid;
@@ -8430,6 +8430,10 @@ textarea.form-control-lg {
 
 h1, .h1 {
   text-align: center; }
+
+@media only screen and (max-width: 600px) {
+  .contact-page form {
+    width: 100%; } }
 
 .galeria img {
   width: 275px;
@@ -8482,6 +8486,7 @@ h1, .h1 {
   height: 80vh;
   background-image: url("../../imagenes/peugeot-bronco.jpg");
   background-size: cover;
+  background-position: right;
   z-index: 0; }
 
 .carousel-image-2 {
@@ -8601,6 +8606,14 @@ h1, .h1 {
 .sobre-nosotros a {
   padding: 5px;
   margin: 5px; }
+
+.sobre-nosotros p {
+  margin: 20px; }
+
+@media only screen and (max-width: 600px) {
+  .sobre-nosotros-header {
+    height: 100px;
+    color: black; } }
 
 /* Footer */
 footer {
