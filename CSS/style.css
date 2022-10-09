@@ -8486,7 +8486,7 @@ h1, .h1 {
   height: 80vh;
   background-image: url("../../imagenes/peugeot-bronco.jpg");
   background-size: cover;
-  background-position: right;
+  background-position: center;
   z-index: 0; }
 
 .carousel-image-2 {
@@ -8499,7 +8499,7 @@ h1, .h1 {
   height: 80vh;
   background-image: url("../../imagenes/MotoHarley-Davinson.jpeg");
   background-size: cover;
-  background-position: right;
+  background-position: 88%;
   z-index: 0; }
 
 .servicios-parent {
