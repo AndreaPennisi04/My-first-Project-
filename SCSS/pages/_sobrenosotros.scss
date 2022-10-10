@@ -1,41 +1,49 @@
 //   Sobre Nosotros
 
 .sobre-nosotros img {
-    width: 100%;
-  }
-  
-  .sobre-nosotros h2 {
+  width: 100%;
+}
+
+.sobre-nosotros {
+  text-align: center;
+}
+
+.sobre-nosotros-header {
+  background-image: url('../../imagenes/tapiceria-coche-asientos.jpeg');
+  background-size: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  color: white;
+  &-h2 {
     margin-top: 30px;
   }
-  
-  .sobre-nosotros {
-    text-align: center;
-  }
-  
-  .sobre-nosotros-header {
-    background-image: url('../../imagenes/tapiceria-coche-asientos.jpeg');
-    background-size: 100%;
-    height: 300px;
-    background-repeat: no-repeat;
-    color: white;
-  }
-  
-  .sobre-nosotros a {
-    padding: 5px;
-    margin: 5px;
-  }
-
-  .sobre-nosotros p {
+  &-p {
     margin: 20px;
   }
-
-  @media only screen and (max-width: 600px) {
-    .sobre-nosotros-header {
-      height: 100px;
-      color: black;
-    }
- 
+  &-p1 {
+    margin: 20px;
   }
+  &-p2 {
+    margin: 20px;
+  }
+  &-p3 {
+    margin: 20px;
+  }
+  &-p4 {
+    margin: 20px;
+  }
+}
+
+.sobre-nosotros a {
+  padding: 5px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sobre-nosotros-header {
+    height: 100px;
+    color: black;
+  }
+}
 
 //   End sobre nosotros
-

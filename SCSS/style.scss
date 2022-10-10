@@ -1,6 +1,7 @@
 // Include any default variable overrides here (though functions won't be available)
 $font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
   sans-serif;
+$secondary: grey;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
@@ -23,7 +24,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
+  xxl: 1400px,
 );
 
 * {
@@ -39,11 +40,9 @@ $grid-breakpoints: (
 }
 
 .navbar-custom {
-  background-color: grey;
-}
-
-.navbar-custom li a {
-  color: white;
+  li a {
+    color: white;
+  }
 }
 /* Fin Nav bar */
 
@@ -56,27 +55,29 @@ footer {
   background-color: grey;
   color: white;
   padding: 30px;
+  a {
+    color: white;
+  }
+  div {
+    margin: 15px;
+  }
+  img {
+    border-radius: 15px;
+  }
+  icon {
+    width: 20px;
+    height: 20px;
+  }
+  footer-logo {
+    width: 100vw;
+    text-align: center;
+  }
 }
 
-.icon {
-  width: 20px;
-  height: 20px;
-}
-
-footer a {
-  color: white;
-}
-
-.footer-logo {
-  width: 100vw;
-  text-align: center;
-}
-footer div {
-  margin: 15px;
-}
-
-footer img {
-  border-radius: 15px;
+footer a:hover {
+  color: #2f2b2b !important;
+  outline-style: hidden !important;
+  outline: none !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -90,7 +91,6 @@ footer img {
 }
 
 /* End footer */
-
 
 //   Mobile view
 
