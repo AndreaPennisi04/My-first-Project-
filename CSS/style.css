@@ -8571,8 +8571,7 @@ h1, .h1 {
   grid-column: 1/2;
   grid-row: 6/7;
   width: 100%;
-  overflow: hidden;
-  margin: 20px; }
+  overflow: hidden; }
 
 .text4 {
   grid-column: 2/3;
@@ -8591,19 +8590,22 @@ h1, .h1 {
     color: black; }
   .photo1 {
     grid-column: 1/3;
-    grid-row: 3/4; }
+    grid-row: 3/4;
+    margin: 0px; }
   .text1 {
     grid-column: 1/3;
     grid-row: 4/5; }
   .photo2 {
     grid-column: 1/3;
-    grid-row: 5/6; }
+    grid-row: 5/6;
+    margin: 0px; }
   .text2 {
     grid-column: 1/3;
     grid-row: 6/7; }
   .photo3 {
     grid-column: 1/3;
-    grid-row: 7/8; }
+    grid-row: 7/8;
+    margin: 0px; }
   .text3 {
     grid-column: 1/3;
     grid-row: 8/9; }
@@ -8695,34 +8697,19 @@ footer img {
 
 /* Fin Nav bar */
 .padding-1 {
-  padding: 1rem; }
+  padding: 0.5rem; }
 
 .padding-2 {
-  padding: 2rem; }
+  padding: 1rem; }
 
 .padding-3 {
-  padding: 3rem; }
+  padding: 1.5rem; }
 
 .padding-4 {
-  padding: 4rem; }
+  padding: 2rem; }
 
 .padding-5 {
-  padding: 5rem; }
-
-.padding-6 {
-  padding: 6rem; }
-
-.padding-7 {
-  padding: 7rem; }
-
-.padding-8 {
-  padding: 8rem; }
-
-.padding-9 {
-  padding: 9rem; }
-
-.padding-10 {
-  padding: 10rem; }
+  padding: 2.5rem; }
 
 * {
   margin: 0;
@@ -8762,21 +8749,6 @@ footer a:hover {
   color: #2f2b2b !important;
   outline-style: hidden !important;
   outline: none !important; }
-
-.padding-1 {
-  padding: 0.5rem; }
-
-.padding-2 {
-  padding: 1rem; }
-
-.padding-3 {
-  padding: 1.5rem; }
-
-.padding-4 {
-  padding: 2rem; }
-
-.padding-5 {
-  padding: 2.5rem; }
 
 @media only screen and (max-width: 600px) {
   footer {
