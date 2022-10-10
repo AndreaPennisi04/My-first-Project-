@@ -8763,6 +8763,21 @@ footer a:hover {
   outline-style: hidden !important;
   outline: none !important; }
 
+.padding-1 {
+  padding: 0.5rem; }
+
+.padding-2 {
+  padding: 1rem; }
+
+.padding-3 {
+  padding: 1.5rem; }
+
+.padding-4 {
+  padding: 2rem; }
+
+.padding-5 {
+  padding: 2.5rem; }
+
 @media only screen and (max-width: 600px) {
   footer {
     padding: 0; }
