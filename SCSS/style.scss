@@ -2,11 +2,13 @@
 $font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
   sans-serif;
 $secondary: grey;
+@import './complements/_variables.scss';
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 // Then add additional custom code here
 
+@import './complements/mixins';
 @import './pages/_404.scss';
 @import './pages/_contacto.scss';
 @import './pages/_galeria.scss';
@@ -16,7 +18,7 @@ $secondary: grey;
 @import './componentes/footer.scss';
 @import './componentes/navbar.scss';
 @import './complements/_loop.scss';
-@import './complements/_variables.scss';
+
 
 $grid-breakpoints: (
   xs: 0,
