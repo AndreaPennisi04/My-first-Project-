@@ -11163,7 +11163,7 @@ fieldset:disabled .btn {
     transform: translate(50px, -50px);
   }
   50% {
-    transform: translate(-50px, 50px);
+    transform: translate(50px, 50px);
   }
   75% {
     transform: translate(-50px, -50px);
