@@ -16,11 +16,11 @@
   background-size: cover;
   position: relative;
   transition: background-image 0.5s ease-in-out;
-  background-image: url('../imagenes/mercedes.jpeg');
+  background-image: url('../imagenes/mercedes.jpg');
   height: 400px;
   color: white;
   &:hover {
-    background-image: url('../imagenes/From JP Cueros/DSC03913 2.JPG');
+    background-image: url('../imagenes/DSC03913 2.JPG');
   }
 }
 
