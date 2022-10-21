@@ -1,6 +1,5 @@
 // Include any default variable overrides here (though functions won't be available)
-$font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
-  sans-serif;
+$font-family: Cabin, sans-serif;
 $secondary: grey;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
@@ -32,8 +31,6 @@ $grid-breakpoints: (
 * {
   margin: 0;
   padding: 0;
-  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
-    sans-serif;
 }
 
 /* Nav bar */
@@ -76,7 +73,7 @@ footer {
   }
 }
 
-footer a:hover {
+a:hover {
   color: #2f2b2b !important;
   outline-style: hidden !important;
   outline: none !important;
