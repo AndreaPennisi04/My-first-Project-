@@ -7,24 +7,41 @@
 
 .home_text {
   text-align: center;
-  color:white ;
+  color: white;
   mix-blend-mode: screen;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   width: 100vw;
   height: 80vh;
-  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 .text-center {
   margin: 25px;
 }
 
-.image-diseno{
-  box-shadow: 3px 3px 17px -3px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 3px 3px 17px -3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 3px 17px -3px rgba(0,0,0,0.75);
+.text-center .card {
+  height: 98%;
+}
+
+.image-diseno {
+  box-shadow: 3px 3px 17px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 17px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 17px -3px rgba(0, 0, 0, 0.75);
+}
+
+.diseno-a-medida-img {
+  background-image: url('../../imagenes/diseno-harley.jpg');
+  height: 700px;
+  background-size: cover;
+}
+
+@include media-breakpoint-up(lg) {
+  .diseno-a-medida-img {
+    height: 100%;
+  }
 }
 
 .carousel-image-1 {

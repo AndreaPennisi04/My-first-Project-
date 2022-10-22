@@ -80,10 +80,9 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .sobre-nosotros-header {
     height: 250px;
-    color: black;
   }
   .sobre-nosotros-header .page-title {
     top: 150px;
@@ -92,6 +91,25 @@
     font-weight: 700;
     font-size: 2rem;
     color: rgb(0, 0, 0);
+  }
+  .sobre-nosotros .imagen-1 {
+    height: 200px;
+    margin: 20px;
+  }
+
+  .sobre-nosotros .imagen-2 {
+    height: 200px;
+    margin: 20px;
+  }
+
+  .sobre-nosotros .imagen-3 {
+    height: 200px;
+    margin: 20px;
+  }
+
+  .sobre-nosotros .imagen-4 {
+    height: 200px;
+    margin: 20px;
   }
 }
 
