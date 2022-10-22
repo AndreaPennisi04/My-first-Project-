@@ -7,16 +7,24 @@
 
 .home_text {
   text-align: center;
-  color: whitesmoke;
+  color:white ;
+  mix-blend-mode: screen;
   display: table-cell;
-  vertical-align: bottom;
+  vertical-align: middle;
   text-align: center;
   width: 100vw;
   height: 80vh;
+  text-transform: uppercase;
 }
 
 .text-center {
   margin: 25px;
+}
+
+.image-diseno{
+  box-shadow: 3px 3px 17px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 17px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 17px -3px rgba(0,0,0,0.75);
 }
 
 .carousel-image-1 {
