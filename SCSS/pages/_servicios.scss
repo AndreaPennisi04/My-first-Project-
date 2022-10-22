@@ -30,8 +30,8 @@
   color: rgb(0, 0, 0);
 }
 
-.header_text {
-  text-align: center;
+.servicios-parent .header_text {
+  text-align: justify;
   margin: 40px;
   padding: 5px;
   font-size: 1.2rem;
@@ -114,6 +114,18 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .header-servicios {
+    height: 250px;
+  }
+  .header-servicios .page-title {
+    top: 150px;
+    left: 20px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+  }
+
   .servicios-contenido .imagen-1 {
     background-image: url('../../imagenes/upholstery-leather-hides-1024x453.jpg');
     height: 200px;

@@ -34,6 +34,10 @@ $grid-breakpoints: (
   font-family: Cabin, sans-serif;
 }
 
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
 /* Nav bar */
 
 .navbar img {
@@ -116,5 +120,25 @@ footer a:hover {
 
   footer .mapa {
     width: 90vw;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.sub-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+@include media-breakpoint-up(md) {
+  .title {
+    font-weight: 700;
+    font-size: 5rem;
+  }
+  .sub-title {
+    font-weight: 700;
+    font-size: 2rem;
   }
 }
