@@ -1,43 +1,74 @@
 //   Galeria
 .galeria img {
-    width: 275px;
-    height: 200px;
-  }
-  
-  .galeria {
-    padding: 10px;
-
-  }
-  
-  .header-galeria {
-    text-align: center;
-    margin: 30px;
-    color: black;
-    text-transform: uppercase;
-  }
-//   End galeria
-.galeria img {
-    width: 275px;
-    height: 200px;
-    margin: 5px;
-  }
-  
-  .galeria {
-    padding: 10px;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-
+  width: 275px;
+  height: 200px;
 }
+
+.galeria {
+  padding: 10px;
+}
+
+.header-galeria {
+  text-align: center;
+  margin: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+//   End galeria
+
+div.gallery {
+  margin-top: 30px;
+}
+
+div.gallery ul {
+  list-style-type: none;
+  margin-left: 35px;
+}
+div.gallery ul li,
+div.gallery li img {
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+div.gallery ul li {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 150px;
+  margin: 5px;
+  padding: 5px;
+  z-index: 0;
+}
+div.gallery ul li:hover {
+  z-index: 5;
+}
+div.gallery ul li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid #dddddd;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  background: #f0f0f0;
+}
+div.gallery ul li img:hover {
+  width: 400px;
+  height: 300px;
+  margin-top: -150px;
+  margin-left: -200px;
+  top: 65%;
+  left: 65%;
+}
+
 @media only screen and (max-width: 600px) {
   .galeria {
     flex-direction: column;
   }
 }
-  
-  .header-galeria {
-    text-align: center;
-    margin: 30px;
-  }
+
+.header-galeria {
+  text-align: center;
+  margin: 30px;
+}
