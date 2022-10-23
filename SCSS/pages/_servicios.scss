@@ -128,13 +128,16 @@
 
   .servicios-contenido .imagen-1 {
     background-image: url('../../imagenes/upholstery-leather-hides-1024x453.jpg');
+    width: 90vw;
     height: 200px;
     margin: 20px;
+    
   }
 
   .servicios-contenido .imagen-2 {
     background-image: url('../../imagenes/40733.jpg');
     height: 200px;
+    width: 90vw;
     margin: 20px;
   }
 
@@ -142,12 +145,14 @@
     background-image: url('https://images.news18.com/ibnlive/uploads/2018/09/car-logos2.jpg');
     height: 200px;
     margin: 20px;
+    width: 90vw;
   }
 
   .servicios-contenido .imagen-4 {
     background-image: url('../../imagenes/soporte-tecnico.jpg');
     height: 200px;
     margin: 20px;
+    width: 90vw;
   }
 }
 // End Servicios

@@ -99,20 +99,21 @@ footer a:hover {
   outline: none !important;
 }
 
+
+
 footer .mapa {
   border-radius: 15px;
   overflow: hidden;
+  background-image: url('../imagenes/company-location.jpg');
+  height: 300px;
+  width: 90vw;
+  background-position: center;
+  background-size: cover;
 }
 
 /* End footer */
 
 //   Mobile view
-
-@media only screen and (max-width: 600px) {
-  footer {
-    padding: 0;
-  }
-}
 
 .title {
   font-weight: 700;
@@ -121,6 +122,12 @@ footer .mapa {
 .sub-title {
   font-weight: 700;
   font-size: 1.5rem;
+}
+.footer-map-section h2{
+padding-left: 25px; 
+}
+.footer-map-section p{
+  padding-left: 25px; 
 }
 
 @include media-breakpoint-up(md) {
@@ -131,5 +138,8 @@ footer .mapa {
   .sub-title {
     font-weight: 700;
     font-size: 2rem;
+  }
+  .mapa {
+    max-width: 500px;
   }
 }
