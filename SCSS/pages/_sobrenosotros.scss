@@ -16,7 +16,6 @@
       rgb(189, 189, 189)
     ),
     url('../../imagenes/tapiceria-coche-asientos.jpg');
-
   background-color: #b1b8bd;
   background-size: cover;
   height: 500px;
@@ -52,6 +51,7 @@
 }
 .sobre-nosotros .texto-2 {
   padding: 40px;
+  order: 1;
 }
 
 .sobre-nosotros .imagen-2 {
@@ -110,6 +110,10 @@
   .sobre-nosotros .imagen-4 {
     height: 200px;
     margin: 20px;
+  }
+
+  .sobre-nosotros .texto-2 {
+    order: -1;
   }
 }
 

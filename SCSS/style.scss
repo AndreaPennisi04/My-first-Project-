@@ -1,6 +1,5 @@
 // Include any default variable overrides here (though functions won't be available)
 $font-family: Cabin, sans-serif;
-
 $background-light: rgb(217, 217, 217);
 
 @import '../node_modules/bootstrap/scss/bootstrap';
@@ -42,6 +41,11 @@ h1 {
 
 .navbar img {
   border-radius: 15px;
+  a:hover {
+    color: #c1b5b5 !important;
+    outline-style: hidden !important;
+    outline: none !important;
+  }
 }
 
 .navbar-custom {
@@ -85,35 +89,24 @@ footer {
     width: 100vw;
     text-align: center;
   }
+  a:hover {
+    color: rgb(213, 220, 250) !important;
+    outline-style: hidden !important;
+    outline: none !important;
+  }
+  .mapa {
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url('../imagenes/company-location.jpg');
+    height: 300px;
+    width: 90vw;
+    background-position: center;
+    background-size: cover;
+  }
 }
-
-.navbar a:hover {
-  color: #c1b5b5 !important;
-  outline-style: hidden !important;
-  outline: none !important;
-}
-
-footer a:hover {
-  color: rgb(213, 220, 250) !important;
-  outline-style: hidden !important;
-  outline: none !important;
-}
-
-
-
-footer .mapa {
-  border-radius: 15px;
-  overflow: hidden;
-  background-image: url('../imagenes/company-location.jpg');
-  height: 300px;
-  width: 90vw;
-  background-position: center;
-  background-size: cover;
-}
-
 /* End footer */
 
-//   Mobile view
+// Title section
 
 .title {
   font-weight: 700;
@@ -130,6 +123,7 @@ padding-left: 25px;
   padding-left: 25px; 
 }
 
+//   Mobile view
 @include media-breakpoint-up(md) {
   .title {
     font-weight: 700;
