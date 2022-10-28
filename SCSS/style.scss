@@ -2,6 +2,14 @@
 $font-family: Cabin, sans-serif;
 $background-light: rgb(217, 217, 217);
 $hover: #c1b5b5 !important;
+$h1font-weight: 700;
+$h1font-size: 4rem; 
+// Title section
+$titlefont-weight: 700;
+$font-size: 2rem;
+$sub-titlefont-weight: 700;
+$font-size: 1.5rem;
+
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
@@ -34,21 +42,6 @@ $grid-breakpoints: (
   font-family: Cabin, sans-serif;
 }
 
-h1 {
-  font-size: 4rem;
-  font-weight: 700;
-}
-
-// Title section
-
-.title {
-  font-weight: 700;
-  font-size: 2rem;
-}
-.sub-title {
-  font-weight: 700;
-  font-size: 1.5rem;
-}
 
 //   Mobile view
 @include media-breakpoint-up(md) {
