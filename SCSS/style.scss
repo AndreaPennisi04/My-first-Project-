@@ -1,6 +1,7 @@
 // Include any default variable overrides here (though functions won't be available)
 $font-family: Cabin, sans-serif;
 $background-light: rgb(217, 217, 217);
+$hover: #c1b5b5 !important;
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 
@@ -37,74 +38,6 @@ h1 {
   font-size: 4rem;
   font-weight: 700;
 }
-/* Nav bar */
-
-.navbar img {
-  border-radius: 15px;
-  a:hover {
-    color: #c1b5b5 !important;
-    outline-style: hidden !important;
-    outline: none !important;
-  }
-}
-
-.navbar-custom {
-  background-color: rgba(68, 68, 68, 0.7);
-  backdrop-filter: blur(12px);
-  position: fixed !important;
-  top: 0 !important;
-  z-index: 99999;
-  width: 100%;
-  li a {
-    color: white;
-  }
-}
-/* Fin Nav bar */
-
-/* Footer */
-
-footer {
-  display: flex;
-  position: static;
-  bottom: 0;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: rgb(53, 53, 53);
-  color: white;
-  padding: 30px;
-  a {
-    color: white;
-  }
-  div {
-    margin: 15px;
-  }
-  img {
-    border-radius: 15px;
-  }
-  icon {
-    width: 20px;
-    height: 20px;
-  }
-  .footer-logo {
-    width: 100vw;
-    text-align: center;
-  }
-  a:hover {
-    color: rgb(213, 220, 250) !important;
-    outline-style: hidden !important;
-    outline: none !important;
-  }
-  .mapa {
-    border-radius: 15px;
-    overflow: hidden;
-    background-image: url('../imagenes/company-location.jpg');
-    height: 300px;
-    width: 90vw;
-    background-position: center;
-    background-size: cover;
-  }
-}
-/* End footer */
 
 // Title section
 
@@ -115,12 +48,6 @@ footer {
 .sub-title {
   font-weight: 700;
   font-size: 1.5rem;
-}
-.footer-map-section h2{
-padding-left: 25px; 
-}
-.footer-map-section p{
-  padding-left: 25px; 
 }
 
 //   Mobile view
