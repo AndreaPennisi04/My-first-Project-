@@ -8546,20 +8546,19 @@ div.gallery ul li img:hover {
   background-size: cover;
   background-position: center;
   height: 90vh; }
+  .section1_home_text {
+    text-align: center;
+    color: white;
+    mix-blend-mode: screen;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100vw;
+    height: 80vh;
+    font-size: 4rem;
+    font-weight: 700; }
 
-.home_text {
-  text-align: center;
-  color: white;
-  mix-blend-mode: screen;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  width: 100vw;
-  height: 80vh;
-  font-size: 4rem;
-  font-weight: 700; }
-
-.text-center {
+.sub-title {
   margin: 25px; }
 
 .text-center .card {
@@ -8579,20 +8578,20 @@ div.gallery ul li img:hover {
   .diseno-a-medida-img {
     height: 100%; } }
 
-.carousel-image-1 {
+.seccion-carousel-image-1 {
   height: 80vh;
   background-image: url("../../imagenes/peugeot-bronco.jpg");
   background-size: cover;
   background-position: center;
   z-index: 0; }
 
-.carousel-image-2 {
+.seccion-carousel-image-2 {
   height: 80vh;
   background-image: url("../../imagenes/interior-yate.jpg");
   background-size: cover;
   z-index: 0; }
 
-.carousel-image-3 {
+.seccion-carousel-image-3 {
   height: 80vh;
   background-image: url("../../imagenes/moto-harley-davinson.jpg");
   background-size: cover;

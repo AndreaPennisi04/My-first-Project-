@@ -3,9 +3,7 @@
   background-size: cover;
   background-position: center;
   height: 90vh;
-}
-
-.home_text {
+&_home_text {
   text-align: center;
   color: white;
   mix-blend-mode: screen;
@@ -17,8 +15,9 @@
   font-size: 4rem;
   font-weight: 700;
 }
-
-.text-center {
+}
+// seccion de servicios
+.sub-title {
   margin: 25px;
 }
 
@@ -44,25 +43,25 @@
   }
 }
 
-.carousel-image-1 {
+.seccion-carousel {
+  &-image-1{
   height: 80vh;
   background-image: url('../../imagenes/peugeot-bronco.jpg');
   background-size: cover;
   background-position: center;
   z-index: 0;
 }
-
-.carousel-image-2 {
+&-image-2 {
   height: 80vh;
   background-image: url('../../imagenes/interior-yate.jpg');
   background-size: cover;
   z-index: 0;
 }
-
-.carousel-image-3 {
+&-image-3 {
   height: 80vh;
   background-image: url('../../imagenes/moto-harley-davinson.jpg');
   background-size: cover;
   background-position: 88%;
   z-index: 0;
+}
 }
