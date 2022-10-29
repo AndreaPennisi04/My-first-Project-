@@ -8381,6 +8381,118 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.padding-1 {
+  padding: 0.5rem; }
+
+.padding-2 {
+  padding: 1rem; }
+
+.padding-3 {
+  padding: 1.5rem; }
+
+.padding-4 {
+  padding: 2rem; }
+
+.padding-5 {
+  padding: 2.5rem; }
+
+.padding-1 {
+  padding: 0rem; }
+
+.padding-2 {
+  padding: 0rem; }
+
+.padding-3 {
+  padding: 0rem; }
+
+.padding-4 {
+  padding: 0rem; }
+
+.padding-5 {
+  padding: 0rem; }
+
+.padding-6 {
+  padding: 0rem; }
+
+.padding-7 {
+  padding: 0rem; }
+
+.padding-8 {
+  padding: 0rem; }
+
+.padding-9 {
+  padding: 0rem; }
+
+/* Footer */
+.icon {
+  width: 20px;
+  height: 20px; }
+
+footer {
+  display: flex;
+  position: static;
+  bottom: 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #353535;
+  color: white;
+  padding: 30px; }
+  footer a {
+    color: white; }
+  footer div {
+    margin: 15px; }
+  footer img {
+    border-radius: 15px; }
+  footer icon {
+    width: 20px;
+    height: 20px; }
+  footer .footer-logo {
+    width: 100vw;
+    text-align: center; }
+  footer a:hover {
+    color: #d5dcfa !important;
+    outline-style: hidden !important;
+    outline: none !important; }
+  footer .mapa {
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url("../imagenes/company-location.jpg");
+    height: 300px;
+    width: 90vw;
+    background-position: center;
+    background-size: cover; }
+
+.footer-map-section h2, .footer-map-section .h2 {
+  padding-left: 25px; }
+
+.footer-map-section p {
+  padding-left: 25px; }
+
+/* End footer */
+/* Nav bar */
+.navbar-custom {
+  background-color: grey; }
+  .navbar-customli a {
+    color: white; }
+
+.navbar img {
+  border-radius: 15px; }
+  .navbar img a:hover {
+    color: #c1b5b5 !important;
+    outline-style: hidden !important;
+    outline: none !important; }
+
+.navbar-custom {
+  background-color: rgba(68, 68, 68, 0.7);
+  backdrop-filter: blur(12px);
+  position: fixed !important;
+  top: 0 !important;
+  z-index: 99999;
+  width: 100%; }
+  .navbar-custom li a {
+    color: white; }
+
+/* Fin Nav bar */
 .background-image-in-error-page {
   background-image: url("../../imagenes/tapiceria-coche-asientos.jpg");
   background-size: cover;
@@ -8712,211 +8824,87 @@ div.gallery ul li img:hover {
   text-align: center;
   margin: 20px; }
 
-.sobre-nosotros img {
+.content_sobre-nosotros img {
   width: 100%; }
 
-.sobre-nosotros {
-  text-align: start;
-  text-align: justify; }
-
-.sobre-nosotros-header {
-  background: linear-gradient(to left, rgba(255, 255, 255, 0) 5%, #bdbdbd), url("../../imagenes/tapiceria-coche-asientos.jpg");
-  background-color: #b1b8bd;
-  background-size: cover;
-  height: 500px;
-  background-repeat: no-repeat; }
-  .sobre-nosotros-header-h2 {
-    margin-top: 30px; }
-
-.sobre-nosotros-header .page-title {
-  top: 250px;
-  left: 50px;
-  position: absolute;
-  font-weight: 700;
-  font-size: 4rem;
-  color: black; }
-
-.sobre-nosotros a {
+.content_sobre-nosotros a {
   padding: 5px;
   margin: 5px; }
 
-.sobre-nosotros .texto-1 {
-  padding: 40px; }
-
-.sobre-nosotros .imagen-1 {
-  background-image: url("../../imagenes/dueno-de-la-fabrica.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  height: 800px; }
-
-.sobre-nosotros .texto-2 {
-  padding: 40px;
-  order: 1; }
-
-.sobre-nosotros .imagen-2 {
-  background-image: url("../../imagenes/volante-en-marronjpg.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  height: 800px; }
-
-.sobre-nosotros .texto-3 {
-  padding: 40px; }
-
-.sobre-nosotros .imagen-3 {
-  background-image: url("../../imagenes/vw.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  height: 800px; }
-
-.sobre-nosotros-button-padding-1 {
-  margin: 10px;
-  padding: 5px;
-  text-align: center; }
-
-@media only screen and (max-width: 768px) {
-  .sobre-nosotros-header {
-    height: 250px; }
-  .sobre-nosotros-header .page-title {
-    top: 150px;
-    left: 20px;
-    position: absolute;
-    font-weight: 700;
-    font-size: 2rem;
-    color: black; }
-  .sobre-nosotros .imagen-1 {
-    height: 200px;
-    margin: 20px; }
-  .sobre-nosotros .imagen-2 {
-    height: 200px;
-    margin: 20px; }
-  .sobre-nosotros .imagen-3 {
-    height: 200px;
-    margin: 20px; }
-  .sobre-nosotros .imagen-4 {
-    height: 200px;
-    margin: 20px; }
-  .sobre-nosotros .texto-2 {
-    order: -1; } }
-
-/* Footer */
-.icon {
-  width: 20px;
-  height: 20px; }
-
-footer {
-  display: flex;
-  position: static;
-  bottom: 0;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #353535;
-  color: white;
-  padding: 30px; }
-  footer a {
-    color: white; }
-  footer div {
-    margin: 15px; }
-  footer img {
-    border-radius: 15px; }
-  footer icon {
-    width: 20px;
-    height: 20px; }
-  footer .footer-logo {
-    width: 100vw;
+.content_sobre-nosotros {
+  text-align: start;
+  text-align: justify; }
+  .content_sobre-nosotros_header {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 5%, #bdbdbd), url("../../imagenes/tapiceria-coche-asientos.jpg");
+    background-color: #b1b8bd;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat; }
+    .content_sobre-nosotros_header_page-title {
+      top: 250px;
+      left: 50px;
+      position: absolute;
+      font-weight: 700;
+      font-size: 4rem;
+      color: black; }
+      @media only screen and (max-width: 768px) {
+        .content_sobre-nosotros_header_page-title {
+          top: 150px;
+          left: 20px;
+          font-size: 2rem; } }
+    @media only screen and (max-width: 768px) {
+      .content_sobre-nosotros_header {
+        height: 250px; } }
+  .content_sobre-nosotros_main_imagen-1 {
+    background-image: url("../../imagenes/dueno-de-la-fabrica.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 800px; }
+    @media only screen and (max-width: 768px) {
+      .content_sobre-nosotros_main_imagen-1 {
+        height: 200px;
+        margin: 20px; } }
+  .content_sobre-nosotros_main_imagen-2 {
+    background-image: url("../../imagenes/volante-en-marronjpg.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 800px; }
+    @media only screen and (max-width: 768px) {
+      .content_sobre-nosotros_main_imagen-2 {
+        height: 200px;
+        margin: 20px; } }
+  .content_sobre-nosotros_main_imagen-3 {
+    background-image: url("../../imagenes/vw.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 800px; }
+    @media only screen and (max-width: 768px) {
+      .content_sobre-nosotros_main_imagen-3 {
+        height: 200px;
+        margin: 20px; } }
+  .content_sobre-nosotros_main_texto-1 {
+    padding: 40px; }
+  .content_sobre-nosotros_main_texto-2 {
+    padding: 40px;
+    order: 1; }
+    @media only screen and (max-width: 768px) {
+      .content_sobre-nosotros_main_texto-2 {
+        order: -1; } }
+  .content_sobre-nosotros_main_texto-3 {
+    padding: 40px; }
+  .content_sobre-nosotros_titulo {
+    margin-top: 30px; }
+  .content_sobre-nosotros_button {
+    margin: 10px;
+    padding: 5px;
     text-align: center; }
-  footer a:hover {
-    color: #d5dcfa !important;
-    outline-style: hidden !important;
-    outline: none !important; }
-  footer .mapa {
-    border-radius: 15px;
-    overflow: hidden;
-    background-image: url("../imagenes/company-location.jpg");
-    height: 300px;
-    width: 90vw;
-    background-position: center;
-    background-size: cover; }
-
-.footer-map-section h2, .footer-map-section .h2 {
-  padding-left: 25px; }
-
-.footer-map-section p {
-  padding-left: 25px; }
-
-/* End footer */
-/* Nav bar */
-.navbar-custom {
-  background-color: grey; }
-  .navbar-customli a {
-    color: white; }
-
-.navbar img {
-  border-radius: 15px; }
-  .navbar img a:hover {
-    color: #c1b5b5 !important;
-    outline-style: hidden !important;
-    outline: none !important; }
-
-.navbar-custom {
-  background-color: rgba(68, 68, 68, 0.7);
-  backdrop-filter: blur(12px);
-  position: fixed !important;
-  top: 0 !important;
-  z-index: 99999;
-  width: 100%; }
-  .navbar-custom li a {
-    color: white; }
-
-/* Fin Nav bar */
-.padding-1 {
-  padding: 0.5rem; }
-
-.padding-2 {
-  padding: 1rem; }
-
-.padding-3 {
-  padding: 1.5rem; }
-
-.padding-4 {
-  padding: 2rem; }
-
-.padding-5 {
-  padding: 2.5rem; }
-
-.padding-1 {
-  padding: 0rem; }
-
-.padding-2 {
-  padding: 0rem; }
-
-.padding-3 {
-  padding: 0rem; }
-
-.padding-4 {
-  padding: 0rem; }
-
-.padding-5 {
-  padding: 0rem; }
-
-.padding-6 {
-  padding: 0rem; }
-
-.padding-7 {
-  padding: 0rem; }
-
-.padding-8 {
-  padding: 0rem; }
-
-.padding-9 {
-  padding: 0rem; }
 
 * {
   margin: 0;
-  padding: 0;
-  font-family: Cabin, sans-serif; }
+  padding: 0; }
 
 @media (min-width: 768px) {
   .title {

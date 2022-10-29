@@ -1,120 +1,104 @@
 //   Sobre Nosotros
 
-.sobre-nosotros img {
+.content_sobre-nosotros img {
   width: 100%;
 }
-
-.sobre-nosotros {
-  text-align: start;
-  text-align: justify;
-}
-
-.sobre-nosotros-header {
-  background: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0) 5%,
-      rgb(189, 189, 189)
-    ),
-    url('../../imagenes/tapiceria-coche-asientos.jpg');
-  background-color: #b1b8bd;
-  background-size: cover;
-  height: 500px;
-  background-repeat: no-repeat;
-  &-h2 {
-    margin-top: 30px;
-  }
-}
-.sobre-nosotros-header .page-title {
-  top: 250px;
-  left: 50px;
-  position: absolute;
-  font-weight: 700;
-  font-size: 4rem;
-  color: rgb(0, 0, 0);
-}
-
-.sobre-nosotros a {
+.content_sobre-nosotros a {
   padding: 5px;
   margin: 5px;
 }
 
-.sobre-nosotros .texto-1 {
-  padding: 40px;
-}
-
-.sobre-nosotros .imagen-1 {
-  background-image: url('../../imagenes/dueno-de-la-fabrica.jpg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  height: 800px;
-}
-.sobre-nosotros .texto-2 {
-  padding: 40px;
-  order: 1;
-}
-
-.sobre-nosotros .imagen-2 {
-  background-image: url('../../imagenes/volante-en-marronjpg.jpg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  height: 800px;
-}
-
-.sobre-nosotros .texto-3 {
-  padding: 40px;
-}
-
-.sobre-nosotros .imagen-3 {
-  background-image: url('../../imagenes/vw.jpg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  height: 800px;
-}
-
-.sobre-nosotros-button-padding-1 {
-  margin: 10px;
-  padding: 5px;
-  text-align: center;
-}
-
-@media only screen and (max-width: 768px) {
-  .sobre-nosotros-header {
-    height: 250px;
+.content {
+  &_sobre-nosotros {
+    text-align: start;
+    text-align: justify;
+    &_header {
+      background: linear-gradient(
+          to left,
+          rgba(255, 255, 255, 0) 5%,
+          rgb(189, 189, 189)
+        ),
+        url('../../imagenes/tapiceria-coche-asientos.jpg');
+      background-color: #b1b8bd;
+      background-size: cover;
+      height: 500px;
+      background-repeat: no-repeat;
+      &_page-title {
+        top: 250px;
+        left: 50px;
+        position: absolute;
+        font-weight: 700;
+        font-size: 4rem;
+        color: rgb(0, 0, 0);
+        @media only screen and (max-width: 768px) {
+          top: 150px;
+          left: 20px;
+          font-size: 2rem;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        height: 250px;
+      }
+    }
+    &_main {
+      &_imagen-1 {
+        background-image: url('../../imagenes/dueno-de-la-fabrica.jpg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        height: 800px;
+        @media only screen and (max-width: 768px) {
+          height: 200px;
+          margin: 20px;
+        }
+      }
+      &_imagen-2 {
+        background-image: url('../../imagenes/volante-en-marronjpg.jpg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        height: 800px;
+        @media only screen and (max-width: 768px) {
+          height: 200px;
+          margin: 20px;
+        }
+      }
+      &_imagen-3 {
+        background-image: url('../../imagenes/vw.jpg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        height: 800px;
+        @media only screen and (max-width: 768px) {
+          height: 200px;
+          margin: 20px;
+        }
+      }
+      &_texto-1 {
+        padding: 40px;
+        @media only screen and (max-width: 768px) {
+        }
+      }
+      &_texto-2 {
+        padding: 40px;
+        order: 1;
+        @media only screen and (max-width: 768px) {
+          order: -1;
+        }
+      }
+      &_texto-3 {
+        padding: 40px;
+        @media only screen and (max-width: 768px) {
+        }
+      }
+    }
+    &_titulo {
+      margin-top: 30px;
+    }
+    &_button {
+      margin: 10px;
+      padding: 5px;
+      text-align: center;
+    }
   }
-  .sobre-nosotros-header .page-title {
-    top: 150px;
-    left: 20px;
-    position: absolute;
-    font-weight: 700;
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-  }
-  .sobre-nosotros .imagen-1 {
-    height: 200px;
-    margin: 20px;
-  }
-
-  .sobre-nosotros .imagen-2 {
-    height: 200px;
-    margin: 20px;
-  }
-
-  .sobre-nosotros .imagen-3 {
-    height: 200px;
-    margin: 20px;
-  }
-
-  .sobre-nosotros .imagen-4 {
-    height: 200px;
-    margin: 20px;
-  }
-
-  .sobre-nosotros .texto-2 {
-    order: -1;
-  }
 }
-
-//   End sobre nosotros

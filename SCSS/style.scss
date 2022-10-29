@@ -4,27 +4,22 @@
 
 // Then add additional custom code here
 
-@import './complements/_variables.scss';
+@import './complements/variables';
 @import './complements/mixins';
-@import './pages/_404.scss';
-@import './pages/_contacto.scss';
-@import './pages/_galeria.scss';
-@import './pages/_index.scss';
-@import './pages/_servicios.scss';
-@import './pages/_sobrenosotros.scss';
-@import './componentes/footer.scss';
-@import './componentes/navbar.scss';
-@import './complements/_loop.scss';
-@import './complements/_variables.scss';
-@import './complements/_mixins.scss';
-
+@import './complements/loop';
+@import './componentes/footer';
+@import './componentes/navbar';
+@import './pages/404';
+@import './pages/contacto';
+@import './pages/galeria';
+@import './pages/index';
+@import './pages/servicios';
+@import './pages/sobrenosotros';
 
 * {
   margin: 0;
   padding: 0;
-  font-family: Cabin, sans-serif;
 }
-
 
 //   Mobile view
 @include media-breakpoint-up(md) {
