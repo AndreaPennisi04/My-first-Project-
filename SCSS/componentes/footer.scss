@@ -10,7 +10,7 @@ footer {
   bottom: 0;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: rgb(53, 53, 53);
+  background-color:  rgb(53, 53, 53);;
   color: white;
   padding: 30px;
   a {
@@ -48,8 +48,8 @@ footer {
 
 .footer-map-section h2{
   padding-left: 25px; 
-  &.footer-map-section p{
+}
+.footer-map-section p{
     padding-left: 25px; 
   }
-}
 /* End footer */

@@ -8845,8 +8845,9 @@ footer {
 
 .footer-map-section h2, .footer-map-section .h2 {
   padding-left: 25px; }
-  .footer-map-section h2.footer-map-section p, .footer-map-section .footer-map-section.h2 p {
-    padding-left: 25px; }
+
+.footer-map-section p {
+  padding-left: 25px; }
 
 /* End footer */
 /* Nav bar */
