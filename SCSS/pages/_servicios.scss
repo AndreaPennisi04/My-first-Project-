@@ -4,165 +4,152 @@
   background-color: $background-light;
 }
 
-.header-servicios {
-  background: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0) 2%,
-      rgb(189, 189, 189)
-    ),
-    url('../../imagenes/mercedes.jpg');
-  background-position: bottom;
-  background-color: #b1b8bd;
-  background-size: cover;
-  height: 500px;
-  background-repeat: no-repeat;
-  &-h2 {
-    margin-top: 30px;
+.content {
+  &_servicios-parent {
+    &_header-servicios {
+      background: linear-gradient(
+          to left,
+          rgba(255, 255, 255, 0) 2%,
+          rgb(189, 189, 189)
+        ),
+        url('../../imagenes/mercedes.jpg');
+      background-position: bottom;
+      background-color: #b1b8bd;
+      background-size: cover;
+      height: 500px;
+      background-repeat: no-repeat;
+      &-h2 {
+        margin-top: 30px;
+      }
+      &_page-title {
+        top: 250px;
+        left: 50px;
+        position: absolute;
+        font-weight: 700;
+        font-size: 4rem;
+        color: rgb(0, 0, 0);
+        @media only screen and (max-width: 768px) {
+          top: 150px;
+          left: 20px;
+          position: absolute;
+          font-weight: 700;
+          font-size: 2rem;
+          color: rgb(0, 0, 0);
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        height: 250px;
+      }
+    }
+    &_header-text {
+      text-align: justify;
+      margin: 40px;
+      padding: 5px;
+      font-size: 1.2rem;
+    }
+    &_servicios-contenido {
+      text-align: start;
+      text-align: justify;
+      &_texto-1 {
+        padding: 40px;
+        order: 1;
+        @media only screen and (max-width: 768px) {
+          order: -1;
+        }
+      }
+      &_imagen-1 {
+        background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0) 40%,
+            rgb(255, 255, 255)
+          ),
+          url('../../imagenes/upholstery-leather-hides-1024x453.jpg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        height: 800px;
+        @media only screen and (max-width: 768px) {
+          background-image: url('../../imagenes/upholstery-leather-hides-1024x453.jpg');
+          width: 90vw;
+          height: 200px;
+          margin: 20px;
+        }
+      }
+      &_texto-2 {
+        padding: 40px;
+      }
+      &_imagen-2 {
+        background: linear-gradient(
+            to left,
+            rgba(255, 255, 255, 0) 2%,
+            $background-light
+          ),
+          url('../../imagenes/40733.jpg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        height: 800px;
+        @media only screen and (max-width: 768px) {
+          background-image: url('../../imagenes/40733.jpg');
+          height: 200px;
+          width: 90vw;
+          margin: 20px;
+        }
+      }
+      &_texto-3 {
+        padding: 40px;
+        order: 1;
+        @media only screen and (max-width: 768px) {
+          order: -1;
+        }
+      }
+      &_imagen-3 {
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+        background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0) 2%,
+            rgb(255, 255, 255)
+          ),
+          url('https://images.news18.com/ibnlive/uploads/2018/09/car-logos2.jpg');
+        height: 800px;
+        @media only screen and (max-width: 768px) {
+          background-image: url('https://images.news18.com/ibnlive/uploads/2018/09/car-logos2.jpg');
+          height: 200px;
+          margin: 20px;
+          width: 90vw;
+        }
+      }
+      &_texto-4 {
+        padding: 40px;
+      }
+      &_imagen-4 {
+        background: linear-gradient(
+            to left,
+            rgba(255, 255, 255, 0) 2%,
+            $background-light
+          ),
+          url('../../imagenes/soporte-tecnico.jpg');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        height: 800px;
+        @media only screen and (max-width: 768px) {
+          background-image: url('../../imagenes/soporte-tecnico.jpg');
+          height: 200px;
+          margin: 20px;
+          width: 90vw;
+        }
+      }
+    }
+    &_main-button-service {
+      grid-column: 1/3;
+      grid-row: 7/8;
+      text-align: center;
+      margin: 20px;
+    }
   }
 }
 
-.header-servicios .page-title {
-  top: 250px;
-  left: 50px;
-  position: absolute;
-  font-weight: 700;
-  font-size: 4rem;
-  color: rgb(0, 0, 0);
-}
-
-.servicios-parent .header_text {
-  text-align: justify;
-  margin: 40px;
-  padding: 5px;
-  font-size: 1.2rem;
-}
-
-.servicios-contenido {
-  text-align: start;
-  text-align: justify;
-}
-
-.servicios-contenido .texto-1 {
-  padding: 40px;
-  order: 1;
-}
-.servicios-contenido .imagen-1 {
-  background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0) 40%,
-      rgb(255, 255, 255)
-    ),
-    url('../../imagenes/upholstery-leather-hides-1024x453.jpg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  height: 800px;
-}
-
-.servicios-contenido .texto-2 {
-  padding: 40px;
-}
-.servicios-contenido .imagen-2 {
-  background: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0) 2%,
-      $background-light
-    ),
-    url('../../imagenes/40733.jpg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  height: 800px;
-}
-
-.servicios-contenido .texto-3 {
-  padding: 40px;
-  order: 1;
-}
-.servicios-contenido .imagen-3 {
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-  background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0) 2%,
-      rgb(255, 255, 255)
-    ),
-    url('https://images.news18.com/ibnlive/uploads/2018/09/car-logos2.jpg');
-  height: 800px;
-}
-
-.servicios-contenido .texto-4 {
-  padding: 40px;
-}
-.servicios-contenido .imagen-4 {
-  background: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0) 2%,
-      $background-light
-    ),
-    url('../../imagenes/soporte-tecnico.jpg');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  height: 800px;
-}
-
-.main_button_service {
-  grid-column: 1/3;
-  grid-row: 7/8;
-  text-align: center;
-  margin: 20px;
-}
-
-@media only screen and (max-width: 768px) {
-  .header-servicios {
-    height: 250px;
-  }
-  .header-servicios .page-title {
-    top: 150px;
-    left: 20px;
-    position: absolute;
-    font-weight: 700;
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-  }
-
-  .servicios-contenido .imagen-1 {
-    background-image: url('../../imagenes/upholstery-leather-hides-1024x453.jpg');
-    width: 90vw;
-    height: 200px;
-    margin: 20px;
-    
-  }
-
-  .servicios-contenido .imagen-2 {
-    background-image: url('../../imagenes/40733.jpg');
-    height: 200px;
-    width: 90vw;
-    margin: 20px;
-  }
-
-  .servicios-contenido .imagen-3 {
-    background-image: url('https://images.news18.com/ibnlive/uploads/2018/09/car-logos2.jpg');
-    height: 200px;
-    margin: 20px;
-    width: 90vw;
-  }
-
-  .servicios-contenido .imagen-4 {
-    background-image: url('../../imagenes/soporte-tecnico.jpg');
-    height: 200px;
-    margin: 20px;
-    width: 90vw;
-  }
-
-  .servicios-contenido .texto-1  {
-    order:-1;
-  }
-
-  .servicios-contenido .texto-3  {
-    order:-1;
-  }
-}
 // End Servicios

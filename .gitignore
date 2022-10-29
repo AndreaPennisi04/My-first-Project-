@@ -12,7 +12,6 @@ node_modules
 
 # Ignora archivos de configuración SASS
 .sass-cache
-# Ignora archivos del sistema MAC
 
 # Ignora archivos css porque se compilan en el scss
 # style.css
