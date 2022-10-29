@@ -1,13 +1,3 @@
-$font-family: Cabin, sans-serif;
-$background-light: rgb(217, 217, 217);
-$hover: #c1b5b5 !important;
-$h1font-weight: 700;
-$h1font-size: 4rem; 
-// Title section
-$titlefont-weight: 700;
-$font-size: 2rem;
-$sub-titlefont-weight: 700;
-$font-size: 1.5rem;
 // Include any default variable overrides here (though functions won't be available)
 
 @import '../node_modules/bootstrap/scss/bootstrap';
@@ -25,15 +15,9 @@ $font-size: 1.5rem;
 @import './componentes/footer.scss';
 @import './componentes/navbar.scss';
 @import './complements/_loop.scss';
+@import './complements/_variables.scss';
+@import './complements/_mixins.scss';
 
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px,
-);
 
 * {
   margin: 0;

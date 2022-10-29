@@ -4,3 +4,8 @@
   }
 }
 
+@for $i from 1 to 10 {
+  .padding-#{$i}{
+    padding: 0rem * $i;
+  }
+}
