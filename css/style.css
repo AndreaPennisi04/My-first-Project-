@@ -8676,7 +8676,10 @@ div.gallery ul li img:hover {
     font-weight: 700; }
 
 .sub-title {
-  margin: 25px; }
+  margin: 25px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1; }
 
 .text-center .card {
   height: 98%; }
@@ -8711,7 +8714,7 @@ div.gallery ul li img:hover {
   background-size: cover;
   z-index: 0; }
 
-.seccion-carousel .carousel-image-3 {
+.seccion-carousel-image-3 {
   height: 80vh;
   background-image: url("../../imagenes/moto-harley-davinson.jpg");
   background-size: cover;
