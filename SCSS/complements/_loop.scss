@@ -1,11 +1,5 @@
-@for $button from 1 through 5 {
-  .padding-#{$button} {
-    padding: 0.5rem * $button;
-  }
-}
-
-@for $i from 1 to 10 {
-  .padding-#{$i}{
-    padding: 0rem * $i;
+@for $i from 0 through 15 {
+  .padding-#{$i} {
+    padding: 1px * $i;
   }
 }

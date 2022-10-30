@@ -13,66 +13,20 @@
     text-align: start;
     text-align: justify;
     &_header {
-      background: linear-gradient(
-          to left,
-          rgba(255, 255, 255, 0) 5%,
-          rgb(189, 189, 189)
-        ),
-        url('../../imagenes/tapiceria-coche-asientos.jpg');
-      background-color: #b1b8bd;
-      background-size: cover;
-      height: 500px;
-      background-repeat: no-repeat;
-      &_page-title {
-        top: 250px;
-        left: 50px;
-        position: absolute;
-        font-weight: 700;
-        font-size: 4rem;
-        color: rgb(0, 0, 0);
-        @media only screen and (max-width: 768px) {
-          top: 150px;
-          left: 20px;
-          font-size: 2rem;
-        }
-      }
-      @media only screen and (max-width: 768px) {
-        height: 250px;
-      }
+      @include encabezado(
+        '../../imagenes/tapiceria-coche-asientos.jpg',
+        center
+      );
     }
     &_main {
       &_imagen-1 {
-        background-image: url('../../imagenes/dueno-de-la-fabrica.jpg');
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: cover;
-        height: 800px;
-        @media only screen and (max-width: 768px) {
-          height: 200px;
-          margin: 20px;
-        }
+        @include imagen5050('../../imagenes/dueno-de-la-fabrica.jpg', right);
       }
       &_imagen-2 {
-        background-image: url('../../imagenes/volante-en-marronjpg.jpg');
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: cover;
-        height: 800px;
-        @media only screen and (max-width: 768px) {
-          height: 200px;
-          margin: 20px;
-        }
+        @include imagen5050('../../imagenes/volante-en-marronjpg.jpg', right);
       }
       &_imagen-3 {
-        background-image: url('../../imagenes/vw.jpg');
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: cover;
-        height: 800px;
-        @media only screen and (max-width: 768px) {
-          height: 200px;
-          margin: 20px;
-        }
+        @include imagen5050('../../imagenes/vw.jpg', right);
       }
       &_texto-1 {
         padding: 40px;
